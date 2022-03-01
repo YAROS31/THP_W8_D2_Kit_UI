@@ -1,0 +1,81 @@
+<!-- YR: My CSS -->
+
+.footer-YR-dark {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+  color:#f0f9ff;
+  background-color:#2c3e50;
+}
+
+
+.navbar-dark{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding:30px;
+  color:#f0f9ff;
+  background-color:#2c3e50;
+}
+
+.jumbotron {
+  /* Choisis la hauteur ici */
+  height: 500px;
+  background-image: url("party_pic1.jpg");
+
+  /* Centre l'image et la met bien sur tous les écrans */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.white
+{
+  color: white;
+}
+
+.line
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("party_pic2.jpg");
+  /* Set a specific height */
+  height: 400px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text {
+  text-align: center;
+    top: 50%;
+  left: 50%;
+  color: white;
+}
+
+button {
+  border-radius: 0;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #180c5a;
+  border-color: #2c3e50;
